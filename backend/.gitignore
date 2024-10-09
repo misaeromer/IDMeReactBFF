@@ -1,0 +1,8 @@
+node_modules
+build
+dist
+.env
+certificate.pem
+private_key.pem
+public_key.pem
+key_id.txt

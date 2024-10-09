@@ -1,0 +1,40 @@
+.headerContainer {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: stretch; /* Stretch the height of the container */
+  height: 20vh; /* Full viewport height */
+}
+/* Container styles to create a horizontal row layout */
+.rowStack {
+  display: flex; /* Enables flexbox */
+  flex-direction: row; /* Aligns items in row direction */
+  gap: 16px; /* Adds space between elements (equivalent to spacing in MUI Stack) */
+  justify-content: space-between; /* Centers the buttons horizontally */
+  align-items: center; /* Centers the buttons vertically */
+  padding-left: 40px; /* Adds some padding around the container */
+  padding-right: 40px;
+  background-color: #f4f4f4; /* Light background for the container */
+  width: 100%;
+}
+/* Heading styles */
+.header {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.167;
+  letter-spacing: -0.01562em;
+}
+
+/* Styling for the buttons */
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #08833d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0b4c27; /* Darken the button on hover */
+}

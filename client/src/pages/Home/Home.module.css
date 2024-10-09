@@ -1,0 +1,31 @@
+.container {
+  width: 100%; /* By default, the container takes the full width */
+  max-width: 100%; /* Don't exceed 100% width */
+  margin-left: auto; /* Center the container horizontally */
+  margin-right: auto;
+  padding-left: 16px; /* Default horizontal padding */
+  padding-right: 16px; /* Matches MUI default padding */
+  background-color: #f4f4f4; /* Light background for the container */
+  /* Flexbox to center the inner div */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+
+  height: 100vh;
+}
+/* Inner content styling */
+.innerDiv {
+  background-color: #318e59;
+  display: flex; /* Enables Flexbox */
+  flex-direction: column; /* Stacks the elements vertically */
+  justify-content: center; /* Centers the items vertically */
+  align-items: center; /* Centers the items horizontally */
+  height: 60vh; /* Makes the container full height (optional) */
+  text-align: center; /* Centers the text inside the individual elements */
+
+  width: 80%;
+}
+.innerDivText {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+}

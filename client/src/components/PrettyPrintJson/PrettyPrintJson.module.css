@@ -1,0 +1,9 @@
+.prettyPrintJson {
+  color: white;
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+.prettyPrintContainer {
+  text-align: left; /* Align the text to the left */
+  padding: 10px;
+}

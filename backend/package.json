@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "generate-keys": "node generate-keys.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "jose": "^5.9.3",
+    "jsonwebtoken": "^9.0.2",
+    "node-forge": "^1.3.1",
+    "node-jose": "^2.2.0",
+    "passport": "^0.7.0",
+    "passport-oauth2": "^1.8.0"
+  }
+}
